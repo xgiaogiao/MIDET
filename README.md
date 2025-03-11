@@ -11,9 +11,7 @@
 
 This repo is the implementation of paper "Multi-Feature Interaction and Degradation Estimation Transformer for Spectral Compressive Imaging"
 
-<i><strong><a target='_blank'>TCSVT 2025</a></strong></i>
-
-[PDF](https://ieeexplore.ieee.org/document/10892248)
+<i><strong><a target='_blank'>TCSVT 2025</a></strong></i>   [PDF](https://ieeexplore.ieee.org/document/10892248)
 
 ## Abstract
 
@@ -22,8 +20,9 @@ Coded Aperture Snapshot Spectral Imaging (CASSI) systems provide an efffcient ap
 ## Comparison with state-of-the-art methods
 
 <div align=center>
-<img src="https://github.com/xgiaogiao/MIDET/tree/main/figures/fig0.png" width = "350" height = "300" alt="">
+<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig0.png" width = "350" height = "300" alt="">
 </div>
+
 
 Comparison between reconstruction methods in terms of PSNR-FLOPS-Params. The vertical axis represents PSNR (dB), the horizontal axis represents FLOPS (G), and the radius of the circle corresponds to Params. The analysis results indicate that MIDET proposed in this study achieves optimal performance with lower values of parameter quantity and FLOPS.
 
@@ -40,8 +39,9 @@ Download Model Zoo and Results ([Baidu Disk](https://pan.baidu.com/s/1aKLnHvAfqJ
 ### Multi-feature Aggregated and Degradation Estimation Unfolding Framework
 
 <div align=center>
-<img src="https://github.com/xgiaogiao/MIDET/tree/main/figures/fig1.png" width = "700" height = "400" alt="">
+<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig1.png" width = "700" height = "400" alt="">
 </div>
+
 
 
 The structure of Multi-feature Aggregated and Degradation Estimation Deep Unfolding Transformer(MIDET) with K Stage(iterations) for HSI reconstruction. (a) Nonlinear Normalized Subgradient Descent (NNSGD) Module (b) Proximal Mapping(PM) Module
@@ -49,8 +49,9 @@ The structure of Multi-feature Aggregated and Degradation Estimation Deep Unfold
 ### Sparse Dense Attention and Spectral Attention Block 
 
 <div align=center>
-<img src="https://github.com/xgiaogiao/MIDET/tree/main/figures/fig2.png" width = "600" height = "400" alt="">
+<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig2.png" width = "600" height = "400" alt="">
 </div>
+
 
 The structure of attention block. (a)Sparse Dense Self-Attention. It includes a sparse attention strategy (each group of labels comes from sparse regions in the image) and a dense attention strategy (each group of labels comes from dense regions in the image). (b)Spectral Wise Self-Attention. (c)Degradation Estimation Graph Interaction. (d)Degradation Estimation Vector Interaction. (e)Residual Frequency Fusion Module
 
