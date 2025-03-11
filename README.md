@@ -39,8 +39,9 @@ Download Model Zoo and Results ([Baidu Disk](https://pan.baidu.com/s/1aKLnHvAfqJ
 ### Multi-feature Aggregated and Degradation Estimation Unfolding Framework
 
 <div align=center>
-<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig2.png" width = "700" height = "400" alt="">
+<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig2.png" width = "700" height = "350" alt="">
 </div>
+
 
 
 
@@ -50,7 +51,7 @@ The structure of Multi-feature Aggregated and Degradation Estimation Deep Unfold
 ### Sparse Dense Attention and Spectral Attention Block 
 
 <div align=center>
-<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig3.png" width = "600" height = "400" alt="">
+<img src="https://github.com/xgiaogiao/MIDET/blob/main/figures/fig3.png" width = "700" height = "400" alt="">
 </div>
 
 
